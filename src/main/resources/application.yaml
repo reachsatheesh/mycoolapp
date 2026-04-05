@@ -1,4 +1,5 @@
 spring:
   application:
     name: mycoolapp
-    team: Satheesh & Co
+  team:
+    name: Satheesh
