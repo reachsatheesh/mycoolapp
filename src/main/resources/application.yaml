@@ -3,3 +3,12 @@ spring:
     name: mycoolapp
   team:
     name: Satheesh
+
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "*"
+    info:
+      env:
+        enabled: true
