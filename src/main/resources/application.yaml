@@ -8,7 +8,12 @@ spring:
     endpoints:
       web:
         exposure:
-          include: "*"
+          include: health,info
     info:
       env:
         enabled: true
+info:
+  app:
+    name: My Cool App
+    description: This is a cool application built with Spring Boot.
+    version: 1.0.0
