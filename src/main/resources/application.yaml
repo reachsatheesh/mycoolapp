@@ -4,16 +4,15 @@ spring:
   team:
     name: Satheesh
 
-  management:
-    endpoints:
-      web:
-        exposure:
-          include:*
-    info:
-      env:
-        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include:*
 info:
-  app:
-    name: My Cool App
-    description: This is a cool application built with Spring Boot.
-    version: 1.0.0
+    env:
+      enabled: true
+    app:
+      name: My Cool App
+      description: This is a cool application built with Spring Boot.
+      version: 1.0.0
