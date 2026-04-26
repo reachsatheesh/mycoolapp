@@ -3,6 +3,10 @@ spring:
     name: mycoolapp
   team:
     name: Satheesh
+    security:
+      enabled: true
+      username: satheesh
+      password: satheesh
 
 management:
   endpoints:
